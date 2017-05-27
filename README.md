@@ -1,17 +1,20 @@
-## wombat got talent
+# WombatGotTalent
 
-### Dev dependencies
-* [Elixir](https://elixir-lang.org/install.html)
-* [PostgreSQL](http://postgresapp.com/)
-* [Phoenix](http://www.phoenixframework.org/docs/installation)
+To start your Phoenix app:
 
-### Running the app
-```bash
-cd wombat_got_talent;
-mix phoenix.server;
-```
+  * Install dependencies with `mix deps.get`
+  * Create and migrate your database with `mix ecto.create && mix ecto.migrate`
+  * Install Node.js dependencies with `npm install`
+  * Start Phoenix endpoint with `mix phoenix.server`
 
-go to ```localhost:4000``` 
+Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-### Contributing
-If you'd like to contribute please reach out to [me](mailto:alaric@zendesk.com).
+Ready to run in production? Please [check our deployment guides](http://www.phoenixframework.org/docs/deployment).
+
+## Learn more
+
+  * Official website: http://www.phoenixframework.org/
+  * Guides: http://phoenixframework.org/docs/overview
+  * Docs: https://hexdocs.pm/phoenix
+  * Mailing list: http://groups.google.com/group/phoenix-talk
+  * Source: https://github.com/phoenixframework/phoenix
